@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">streetfood</string>
+    <string name="btnCats">Cats</string>
+    <string name="btnPopular">Popular</string>
+    <string name="btnAZ">A-Z</string>
+    <string name="btnNearBy">NearBy</string>
+    <string name="listView1">listView1</string>
+    <string name="btnMaps">Maps</string>
+    <string name="btnLists">List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_show_details">ShowDetails</string>
+
+</resources>

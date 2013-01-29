@@ -12,6 +12,37 @@
         android:layout_marginTop="10dp"
         android:orientation="horizontal" >
 
+       <Button
+            android:id="@+id/btnPopular"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Popular"
+            android:layout_marginLeft="-3dip"
+    		android:layout_marginRight="-3dip"
+             />
+        <Button
+            android:id="@+id/btnAZ"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="A-Z" 
+            android:layout_marginLeft="-3dip"
+    		android:layout_marginRight="-3dip"
+             />
+       <Button
+            android:id="@+id/btnCats"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Category"
+            android:layout_marginLeft="-3dip"
+    		android:layout_marginRight="-3dip"/>
+        
+        
         <Button
             android:id="@+id/btnNearBy"
             style="?android:attr/buttonStyleSmall"
@@ -19,35 +50,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Near By"
+            android:layout_marginLeft="-3dip"
+    		android:layout_marginRight="-3dip"
              />
 
-        <Button
-            android:id="@+id/btnAZ"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="0dp"
-            android:layout_weight="1"
-            android:text="A-Z" 
-             />
 
-        <Button
-            android:id="@+id/btnPopular"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Popular"
-             />
 
-        <Button
-            android:id="@+id/btnCats"
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="Cats"
-             />
+        
+
+        
     </LinearLayout>
 
     <LinearLayout
@@ -56,7 +67,14 @@
         android:layout_weight="0.78"
         android:orientation="vertical" >
 
- 
+  <!--      <TextView
+            android:id="@+id/txtViewInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.74"
+            android:text="List of Near By Street Shops Depending On Clients Location" />
+   
+    -->
      
       <ListView
             android:id="@+id/listView1"
